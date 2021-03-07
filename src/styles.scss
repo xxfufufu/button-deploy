@@ -43,7 +43,11 @@ grid-gap: 10px;
   grid-column: 3/5;
 }
 
-
+@media only screen and (max-width: 500px) {
+  .six, .seven, .eight, .nine, .ten {
+    grid-column: 1/5;
+  }  
+}
 button {
   min-width: 73px;
   min-height: 32px;
